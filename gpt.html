@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Stephen Kionywe (Kigathi) — Leadership Profile</title>
+    <meta
+      name="description"
+      content="Leadership profile for Stephen Kionywe (Kigathi). Chief Whip — RESA. Youth empowerment, community development, and accountable leadership."
+    />
+    <style>
+      :root {
+        --deep-blue: #012f5e; /* DCP */
+        --gold: #f4c430; /* DCP */
+        --cream: #faf8f2;
+        --charcoal: #123244;
+        --muted: #6b7a8a;
+        --max-width: 1100px;
+      }
+
+      /* Reset-ish */
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial;
+        color: var(--charcoal);
+        background: var(--cream);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        line-height: 1.6;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .container {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      /* Header */
+      header {
+        position: sticky;
+        top: 0;
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.9),
+          rgba(255, 255, 255, 0.82)
+        );
+        backdrop-filter: blur(6px);
+        z-index: 40;
+        border-bottom: 1px solid rgba(1, 47, 94, 0.06);
+      }
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 14px 0;
+      }
+      .brand {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+      }
+      .brand .logo {
+        width: 48px;
+        height: 48px;
+        border-radius: 8px;
+        background: linear-gradient(135deg, var(--deep-blue), var(--gold));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 700;
+      }
+      .brand h1 {
+        font-size: 16px;
+        margin: 0;
+      }
+      nav ul {
+        display: flex;
+        gap: 18px;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .btn-primary {
+        background: linear-gradient(90deg, var(--gold), #f7b400);
+        color: var(--deep-blue);
+        padding: 10px 16px;
+        border-radius: 8px;
+        border: none;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      .btn-ghost {
+        padding: 8px 12px;
+        border-radius: 8px;
+        border: 1px solid rgba(1, 47, 94, 0.08);
+        background: transparent;
+        cursor: pointer;
+      }
+
+      /* HERO */
+      .hero {
+        min-height: 70vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        padding: 64px 0;
+        position: relative;
+        overflow: hidden;
+      }
+      .hero-inner {
+        display: grid;
+        grid-template-columns: 1fr 460px;
+        gap: 40px;
+        align-items: center;
+      }
+      .hero-copy h2 {
+        font-size: 34px;
+        color: var(--deep-blue);
+        margin: 0 0 12px;
+      }
+      .hero-copy p {
+        color: var(--muted);
+        font-size: 16px;
+        margin: 0 0 20px;
+      }
+      .hero-cta {
+        display: flex;
+        gap: 12px;
+      }
+
+      .card-profile {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), white);
+        padding: 18px;
+        border-radius: 12px;
+        box-shadow: 0 8px 30px rgba(2, 40, 68, 0.08);
+        border: 1px solid rgba(1, 47, 94, 0.04);
+      }
+      .profile-photo {
+        width: 100%;
+        height: 320px;
+        border-radius: 10px;
+        background: linear-gradient(
+          0deg,
+          rgba(1, 47, 94, 0.08),
+          rgba(244, 196, 48, 0.06)
+        );
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--deep-blue);
+        font-weight: 700;
+      }
+      .role {
+        font-size: 13px;
+        color: var(--deep-blue);
+        font-weight: 700;
+        margin-top: 12px;
+      }
+      .mini {
+        font-size: 14px;
+        color: var(--muted);
+      }
+
+      /* Sections */
+      section {
+        padding: 56px 0;
+      }
+      .grid-3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      .card {
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 6px 20px rgba(2, 40, 68, 0.04);
+        border: 1px solid rgba(1, 47, 94, 0.03);
+      }
+
+      .values-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+      }
+
+      .quote {
+        background: linear-gradient(
+          90deg,
+          rgba(1, 47, 94, 0.04),
+          rgba(244, 196, 48, 0.02)
+        );
+        padding: 18px;
+        border-radius: 10px;
+        font-style: italic;
+      }
+
+      /* CTA */
+      .cta {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 28px;
+        background: linear-gradient(
+          90deg,
+          rgba(1, 47, 94, 0.06),
+          rgba(244, 196, 48, 0.04)
+        );
+        border-radius: 12px;
+      }
+
+      footer {
+        padding: 36px 0;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      /* Responsive */
+      @media (max-width: 960px) {
+        .hero-inner {
+          grid-template-columns: 1fr;
+        }
+        .hero-cta {
+          flex-direction: column;
+        }
+        .grid-3 {
+          grid-template-columns: 1fr;
+        }
+        .values-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <div class="brand">
+          <div class="logo">SK</div>
+          <div>
+            <h1>Stephen Kionywe (Kigathi)</h1>
+            <div style="font-size: 12px; color: var(--muted)">
+              Chief Whip — Real Estate Stakeholders Association (RESA)
+            </div>
+          </div>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#impact">Impact</a></li>
+            <li><a href="#vision">Vision</a></li>
+            <li><a href="#media">Media Kit</a></li>
+            <li><button class="btn-primary">Download Portfolio</button></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <h2>
+              Transforming leadership through vision, integrity, and community
+              action
+            </h2>
+            <p>
+              Stephen Kionywe (Kigathi) — a community-centred leader and the
+              Chief Whip of RESA. Dedicated to accountable governance, youth
+              empowerment, inclusive development, and practical solutions that
+              uplift families and businesses.
+            </p>
+
+            <div class="hero-cta">
+              <a class="btn-primary" href="#about">About Stephen</a>
+              <a class="btn-ghost" href="#impact">Community Impact</a>
+            </div>
+
+            <div style="margin-top: 18px; color: var(--muted); font-size: 14px">
+              Profile designed with DCP-inspired colors: Deep Blue (#012F5E) and
+              Bright Gold (#F4C430).
+            </div>
+          </div>
+
+          <aside class="card-profile">
+            <div class="profile-photo" aria-hidden="true">
+              <!-- Replace with actual portrait -->
+              <div style="text-align: center">
+                <div style="font-size: 18px; margin-bottom: 6px">
+                  [Candidate Portrait]
+                </div>
+                <div style="font-size: 12px; color: var(--muted)">
+                  Professional photograph recommended
+                </div>
+              </div>
+            </div>
+
+            <div class="role">
+              Chief Whip — Real Estate Stakeholders Association (RESA)
+            </div>
+            <div class="mini">
+              Community leader • Youth mentor • Policy advocate
+            </div>
+
+            <div style="margin-top: 12px; display: flex; gap: 8px">
+              <button class="btn-primary" style="flex: 1">
+                Request Media Kit
+              </button>
+              <button class="btn-ghost" style="flex: 1">Partnerships</button>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="container">
+        <div
+          style="
+            display: grid;
+            grid-template-columns: 1fr 360px;
+            gap: 28px;
+            align-items: start;
+          "
+        >
+          <div>
+            <h3 style="color: var(--deep-blue); margin-top: 0">
+              About Stephen Kionywe (Kigathi)
+            </h3>
+            <p style="color: var(--muted)">
+              Stephen is a charismatic and diligent community leader with a
+              proven track record of grassroots action, stakeholder engagement,
+              and policy advocacy. As Chief Whip at RESA, he has championed
+              transparent real estate practice and worked with communities to
+              improve access to housing, fair land use, and stakeholder-driven
+              development.
+            </p>
+
+            <h4 style="color: var(--deep-blue); margin-bottom: 8px">
+              Core Leadership Values
+            </h4>
+            <div class="values-grid">
+              <div class="card">
+                <strong>Integrity</strong>
+                <div class="mini">Honest, accountable leadership.</div>
+              </div>
+              <div class="card">
+                <strong>Service</strong>
+                <div class="mini">Citizen-focused policies and programs.</div>
+              </div>
+              <div class="card">
+                <strong>Innovation</strong>
+                <div class="mini">
+                  Youth-centred digital skills & entrepreneurship.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <aside>
+            <div class="card">
+              <h4 style="margin-top: 0; color: var(--deep-blue)">
+                Quick Facts
+              </h4>
+              <ul style="padding-left: 18px; color: var(--muted)">
+                <li>
+                  Chief Whip — Real Estate Stakeholders Association (RESA)
+                </li>
+                <li>
+                  Focus: Youth empowerment, education, health, and community
+                  development
+                </li>
+                <li>Approach: Inclusive, data-informed, and stakeholder-led</li>
+                <li>
+                  Media / Official Contact: [INSERT OFFICIAL CONTACT
+                  INFORMATION]
+                </li>
+              </ul>
+            </div>
+
+            <div style="height: 18px"></div>
+
+            <div class="card">
+              <h4 style="margin-top: 0; color: var(--deep-blue)">
+                Signature Project
+              </h4>
+              <p style="color: var(--muted); margin: 0">
+                Digital Skills Bootcamp — a flagship initiative training local
+                youth in coding, entrepreneurship and business pitching.
+              </p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- IMPACT -->
+      <section id="impact" class="container">
+        <h3 style="color: var(--deep-blue); margin-top: 0">
+          Community Impact & Initiatives
+        </h3>
+        <div class="grid-3">
+          <div class="card">
+            <h4>Education & Scholarships</h4>
+            <p class="mini">
+              Coordinated bursaries and mentorship programs to improve school
+              completion rates and access to higher education.
+            </p>
+          </div>
+          <div class="card">
+            <h4>Youth Empowerment</h4>
+            <p class="mini">
+              Digital training, entrepreneurship support, and local hackathons
+              that connect youth to tech and business opportunities.
+            </p>
+          </div>
+          <div class="card">
+            <h4>Healthcare Outreach</h4>
+            <p class="mini">
+              Supported mobile clinics and community health drives focused on
+              maternal and child health.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- VISION -->
+      <section id="vision" class="container">
+        <h3 style="color: var(--deep-blue); margin-top: 0">
+          Vision For an Empowered Future
+        </h3>
+        <div
+          style="
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            align-items: center;
+          "
+        >
+          <div>
+            <p style="color: var(--muted)">
+              Stephen envisions a Kenya where leadership is inclusive and
+              development is citizen-driven. His pillars of action include
+              education, technology & innovation, accountable governance, health
+              & social welfare, and sustainable community development.
+            </p>
+
+            <ul style="color: var(--muted); padding-left: 18px">
+              <li>Inclusive Community Development</li>
+              <li>Education & Youth Opportunities</li>
+              <li>Health Access & Social Support</li>
+              <li>Responsible Real Estate & Housing</li>
+              <li>Transparent, Data-Informed Governance</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="quote">
+              "True leadership is not about power — it is about nurturing
+              others, solving real problems, and building lasting opportunities
+              for all."
+            </div>
+            <div style="margin-top: 12px; color: var(--muted)">
+              — Stephen K. (Kigathi)
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="container">
+        <div class="cta">
+          <div>
+            <h4 style="margin: 0; color: var(--deep-blue)">
+              Interested in partnerships or the media kit?
+            </h4>
+            <div style="color: var(--muted)">
+              Contact the communications team for Stephen Kionywe (Kigathi).
+            </div>
+          </div>
+          <div style="display: flex; gap: 10px">
+            <button class="btn-primary">Request Media Kit</button>
+            <button class="btn-ghost">Partnerships & Sponsorships</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div
+        class="container"
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 20px;
+          flex-wrap: wrap;
+        "
+      >
+        <div style="min-width: 220px">
+          <strong style="color: var(--deep-blue)"
+            >Stephen Kionywe (Kigathi)</strong
+          >
+          <div style="color: var(--muted)">
+            Chief Whip — Real Estate Stakeholders Association (RESA)
+          </div>
+        </div>
+
+        <div style="color: var(--muted); text-align: right; min-width: 220px">
+          Media / Official Contact: [INSERT OFFICIAL CONTACT INFORMATION]
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

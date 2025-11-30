@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News & Updates - Hon. Stephen Kigathi</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="news.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <div class="container header-container">
+        <a href="index.html" class="logo">
+          <img src="kibathi logo.png" alt="Kikuyu Logo" class="logo-img" />
+        </a>
+
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="vision.html">Vision</a></li>
+            <li><a href="news.html" class="active">News</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+
+          <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <div class="page-header-content">
+          <h1>News & Updates</h1>
+          <p>
+            Stay informed about our campaign activities, community engagements,
+            and the latest developments in our journey to transform Kikuyu
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Filters -->
+    <section class="section">
+      <div class="container">
+        <div class="news-filters">
+          <button class="filter-btn active" data-filter="all">
+            All Updates
+          </button>
+          <button class="filter-btn" data-filter="campaign">
+            Campaign Trail
+          </button>
+          <button class="filter-btn" data-filter="community">
+            Community Engagement
+          </button>
+          <button class="filter-btn" data-filter="vision">Vision Forums</button>
+          <button class="filter-btn" data-filter="media">Media Coverage</button>
+        </div>
+
+        <div class="news-grid">
+          <!-- Campaign News -->
+          <div class="news-card visible" data-category="campaign">
+            <div class="news-img">
+              <img
+                src="WhatsApp Image 2025-11-30 at 16.58.37_024c3d1d.jpg"
+                atl="Campaign Rally"
+              />
+              <div class="news-category">Campaign Trail</div>
+            </div>
+            <div class="news-content">
+              <span class="news-date">November 15, 2023</span>
+              <h3>Kikuyu Movement Gains Momentum in Nachu Ward</h3>
+              <p>
+                Hundreds of residents turned up for our town hall meeting in
+                Nachu Ward, engaging in productive discussions about the future
+                of Kikuyu and sharing their vision for our constituency.
+              </p>
+              <a href="#" class="read-more"
+                >Read More <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Community Engagement -->
+          <div class="news-card visible" data-category="community">
+            <div class="news-img">
+              <img
+                src="WhatsApp Image 2025-11-30 at 16.58.44_51c3e1f6.jpg"
+                alt="Community Clean-up"
+              />
+              <div class="news-category">Community Engagement</div>
+            </div>
+            <div class="news-content">
+              <span class="news-date">November 8, 2023</span>
+              <h3>Youth-Led Environmental Clean-up in Karai Ward</h3>
+              <p>
+                Joined by over 200 volunteers, we conducted a successful
+                community clean-up exercise in Karai Ward, demonstrating our
+                commitment to environmental conservation and community
+                participation.
+              </p>
+              <a href="#" class="read-more"
+                >Read More <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Vision Forum -->
+          <div class="news-card visible" data-category="vision">
+            <div class="news-img">
+              <img
+                src="WhatsApp Image 2025-11-30 at 16.58.36_03f65bdd.jpg"
+                alt="Youth Forum"
+              />
+              <div class="news-category">Vision Forums</div>
+            </div>
+            <div class="news-content">
+              <span class="news-date">October 30, 2023</span>
+              <h3>Youth Empowerment Forum Draws Hundreds</h3>
+              <p>
+                Our interactive youth forum at Kikuyu Social Hall provided a
+                platform for young people to share their ideas and concerns,
+                shaping our youth empowerment agenda for 2027.
+              </p>
+              <a href="#" class="read-more"
+                >Read More <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Media Coverage -->
+          <div class="news-card visible" data-category="media">
+            <div class="news-img">
+              <img
+                src="WhatsApp Image 2025-11-30 at 16.58.38_d82a26ec.jpg"
+                alt="Media Interview"
+              />
+              <div class="news-category">Media Coverage</div>
+            </div>
+            <div class="news-content">
+              <span class="news-date">October 22, 2023</span>
+              <h3>Featured on Citizen TV's Leadership Segment</h3>
+              <p>
+                Shared our vision for Kikuyu and discussed the importance of
+                youth inclusion in leadership on national television, reaching
+                thousands of viewers across the country.
+              </p>
+              <a href="#" class="read-more"
+                >Read More <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Campaign News -->
+          <div class="news-card visible" data-category="campaign">
+            <div class="news-img">
+              <img
+                src="WhatsApp Image 2025-11-30 at 16.58.46_a54729c0.jpg"
+                alt="Door-to-Door Campaign"
+              />
+              <div class="news-category">Campaign Trail</div>
+            </div>
+            <div class="news-content">
+              <span class="news-date">October 15, 2023</span>
+              <h3>Door-to-Door Campaign Reaches 500+ Households</h3>
+              <p>
+                Our dedicated team of volunteers has been engaging residents
+                directly in their homes, listening to their concerns and sharing
+                our vision for a transformed Kikuyu.
+              </p>
+              <a href="#" class="read-more"
+                >Read More <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Community Engagement -->
+          <div class="news-card visible" data-category="community">
+            <div class="news-img">
+              <img
+                src="WhatsApp Image 2025-11-30 at 16.58.43_0741e983.jpg"
+                alt="Women's Forum"
+              />
+              <div class="news-category">Community Engagement</div>
+            </div>
+            <div class="news-content">
+              <span class="news-date">October 5, 2023</span>
+              <h3>Women's Economic Empowerment Forum</h3>
+              <p>
+                Hosted a successful forum with women entrepreneurs and leaders
+                to discuss economic opportunities and challenges facing women in
+                Kikuyu.
+              </p>
+              <a href="#" class="read-more"
+                >Read More <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center">
+          <a href="#" class="btn btn-primary">Load More Updates</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Upcoming Events -->
+    <section class="section events-section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Upcoming Events</h2>
+        </div>
+
+        <div class="events-grid">
+          <div class="event-card">
+            <div class="event-date">
+              <div class="event-day">30</div>
+              <div class="event-month">NOV</div>
+            </div>
+            <div class="event-details">
+              <h3>Town Hall Meeting - Sigona Ward</h3>
+              <div class="event-meta">
+                <div class="event-meta-item">
+                  <i class="fas fa-clock"></i>
+                  <span>4:00 PM</span>
+                </div>
+                <div class="event-meta-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>Sigona Social Hall</span>
+                </div>
+              </div>
+              <p>
+                Join us for an interactive town hall meeting to discuss
+                community needs and our development agenda for Sigona Ward.
+              </p>
+              <a href="#" class="read-more"
+                >RSVP Now <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="event-card">
+            <div class="event-date">
+              <div class="event-day">05</div>
+              <div class="event-month">DEC</div>
+            </div>
+            <div class="event-details">
+              <h3>Youth Talent Show & Empowerment Forum</h3>
+              <div class="event-meta">
+                <div class="event-meta-item">
+                  <i class="fas fa-clock"></i>
+                  <span>10:00 AM</span>
+                </div>
+                <div class="event-meta-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>Kikuyu Sports Ground</span>
+                </div>
+              </div>
+              <p>
+                Celebrating youth talent while discussing opportunities for
+                skills development and economic empowerment.
+              </p>
+              <a href="#" class="read-more"
+                >RSVP Now <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="event-card">
+            <div class="event-date">
+              <div class="event-day">12</div>
+              <div class="event-month">DEC</div>
+            </div>
+            <div class="event-details">
+              <h3>Business Forum - Nachu Ward</h3>
+              <div class="event-meta">
+                <div class="event-meta-item">
+                  <i class="fas fa-clock"></i>
+                  <span>2:00 PM</span>
+                </div>
+                <div class="event-meta-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>Nachu Community Center</span>
+                </div>
+              </div>
+              <p>
+                Engaging with local business owners to discuss challenges and
+                opportunities for economic growth in Nachu Ward.
+              </p>
+              <a href="#" class="read-more"
+                >RSVP Now <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+      <div class="container">
+        <h2>Stay Updated</h2>
+        <p>
+          Subscribe to our newsletter to receive the latest updates about our
+          campaign activities and events
+        </p>
+        <form class="newsletter-form">
+          <input
+            type="email"
+            class="newsletter-input"
+            placeholder="Enter your email address"
+            required
+          />
+          <button type="submit" class="btn btn-secondary">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-col">
+            <h3>Hon. Kigathi Stephen</h3>
+            <p>
+              A visionary leader committed to transformative development and
+              community-driven progress for Kikuyu Constituency.
+            </p>
+            <div class="social-links">
+              <a href="https://www.facebook.com/share/17Z5jgSmw5/"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="vision.html">Vision</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="media.html">Media</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Get Involved</h3>
+            <ul class="footer-links">
+              <li><a href="volunteer.html">Volunteer</a></li>
+              <li><a href="volunteer.html">Donate</a></li>
+              <li><a href="news.html">Events</a></li>
+              <li><a href="contact.html">Join Our Team</a></li>
+              <li><a href="contact.html">Become a Partner</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Contact Us</h3>
+            <ul class="footer-links">
+              <li>
+                <a
+                  href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.745292637264!2d36.77921431475397!3d-1.3287350990329118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1b86292b4f37%3A0x5bc976a1fc9156e6!2sLangata%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1651234567890!5m2!1sen!2ske"
+                  ><i class="fas fa-map-marker-alt"></i> Kikuyu Constituency
+                  Office</a
+                >
+              </li>
+              <li>
+                <a href="tel:+254723309556"
+                  ><i class="fas fa-phone"></i> +254 723 309 556
+                </a>
+              </li>
+              <li>
+                <a href="mailto:info@StephenKigathi.co.ke"
+                  ><i class="fas fa-envelope"></i> info@StephenKigathi.co.ke</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 Hon. Stephen Kigathi - Kikuyu 2027. All Rights Reserved.
+          </p>
+          <p style="margin: 0; font-size: 13px; color: #777">
+            Crafted with <span style="color: red">❤</span> by
+            <a
+              href="https://createmodafrica.co.ke"
+              target="_blank"
+              rel="noopener"
+              style="
+                color: var(--gold);
+                text-decoration: none;
+                font-weight: 500;
+              "
+            >
+              CreateModAfrica
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a
+      href="https://wa.me/254723309556?text=Hello%2C%20I%20would%20like%20to%20support%20Hon.%20Stephen%20Kigathi's%20campaign"
+      class="whatsapp-float"
+      target="_blank"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+      <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <script src="news.js"></script>
+  </body>
+</html>
