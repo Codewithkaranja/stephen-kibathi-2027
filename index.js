@@ -131,8 +131,8 @@ document.querySelector(".scroll-down")?.addEventListener("click", () => {
 const typewriterElement = document.getElementById("typewriter");
 const messages = [
   "Leadership with Vision",
-  "Uniting Kikuyu for a Stronger Tomorrow",
-  "Champion of Community and Development",
+  "Uniting Kikuyu for Better",
+  "Maendeleo Champion",
   "Your Voice, Your Future"
 ];
 
